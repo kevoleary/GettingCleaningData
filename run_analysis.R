@@ -72,3 +72,4 @@ finaldf2 <- finaldf1 %>%
     select(-sample)
 
 write.table(finaldf2, "./tidyDataset.txt", row.names = FALSE)
+
